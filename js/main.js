@@ -59,7 +59,9 @@ $(window).on('activate.bs.scrollspy', changeNav);
 $('.navnbar').ready(changeNav);
 
 //Activates carousel
-$('.carousel').carousel()
+$('.carousel').carousel({
+    interval: 2000
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
